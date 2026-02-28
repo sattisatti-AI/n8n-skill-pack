@@ -1,0 +1,20 @@
+{
+  "name": "sattisatti-local-marketplace",
+  "owner": {
+    "name": "sattisatti-AI",
+    "url": "https://github.com/sattisatti-AI"
+  },
+  "plugins": [
+    {
+      "name": "n8n-skill-pack",
+      "displayName": "n8n Skill Pack (Enterprise + Agent Mode)",
+      "description": "Enterprise/agency-grade n8n skills + templates + agent scripts for n8n Cloud API (create/activate/test).",
+      "source": {
+        "type": "github",
+        "url": "https://github.com/sattisatti-AI/n8n-skill-pack.git",
+        "ref": "main",
+        "path": "."
+      }
+    }
+  ]
+}
