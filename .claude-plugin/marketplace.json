@@ -6,7 +6,11 @@
   "plugins": [
     {
       "name": "n8n-skill-pack",
-      "source": "https://github.com/sattisatti-AI/n8n-skill-pack.git"
+      "source": {
+        "source": "github",
+        "repo": "sattisatti-AI/n8n-skill-pack",
+        "ref": "main"
+      }
     }
   ]
 }
