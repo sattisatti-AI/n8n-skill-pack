@@ -7,8 +7,8 @@
     {
       "name": "n8n-skill-pack",
       "source": {
-        "source": "github",
-        "repo": "sattisatti-AI/n8n-skill-pack",
+        "type": "git",
+        "url": "https://github.com/sattisatti-AI/n8n-skill-pack.git",
         "ref": "main"
       }
     }
