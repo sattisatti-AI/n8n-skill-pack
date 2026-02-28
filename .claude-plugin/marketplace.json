@@ -1,13 +1,11 @@
 {
   "name": "sattisatti-local-marketplace",
-  "owner": {
-    "name": "sattisatti-AI"
-  },
+  "owner": { "name": "sattisatti-AI" },
   "plugins": [
     {
       "name": "n8n-skill-pack",
       "source": {
-        "type": "git",
+        "source": "url",
         "url": "https://github.com/sattisatti-AI/n8n-skill-pack.git",
         "ref": "main"
       }
